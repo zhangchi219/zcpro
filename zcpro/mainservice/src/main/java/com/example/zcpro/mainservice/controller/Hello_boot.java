@@ -22,6 +22,7 @@ public class Hello_boot {
         int j = 0;
         int s = i/j;
         logger.info("hahahah");
+        logger.info("hahahssah");
         return i;
     }
 }

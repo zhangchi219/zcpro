@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script th:src="@{/static/js/jquery/jquery-1.10.2.js}"  type="text/javascript" ></script>
+<script>
+    function testQueryRest() {
+        $.ajax({
+            url:"/testRest/users/zc",
+            type:"get",
+            datetype:"json",
+            async:true,
+            success:function (result) {
+                console.log(result);
+                $("#errorDiv").css("display","block");
+                $("input[name='errInfo']").val(result);
+            },
+            error:function (XMLHttpRequest, textStatus, errorThrown) {
+                    $("#errorDiv").css("display","block");
+                    $("input[name='errInfo']").val(textStatus);
+            }
+        })
+    }
+    function testInsertRest() {
+        $.ajax({
+            url:"/testRest/users/",
+            type:"post",
+            datetype:"json",
+            //data:{"id":"2","userName":"wb","passWord":"123456"},
+            data:$("#formInsert").serialize(),
+            async:true,
+            success:function (result) {
+                console.log(result);
+                $("#errorDiv").css("display","block");
+                $("input[name='errInfo']").val(result);
+            },
+            error:function (XMLHttpRequest, textStatus, errorThrown) {
+                $("#errorDiv").css("display","block");
+                $("input[name='errInfo']").val(textStatus);
+            }
+        })
+    }
+    function formSubmit() {
+        $("#formInsert").submit();
+    }
+</script>
+<body>
+<div>
+    <input type="button" value="query" onclick="testRest()">
+    <input type="button" value="insert" onclick="testInsertRest()">
+    <input type="button" value="formInsert" onclick="formSubmit()">
+    <form id="formInsert" action="/testRest/users/" method="post">
+        <input name="id" value="3" />
+        <input name="userName" value="zc1" />
+        <input name="passWord" value="123456" />
+    </form>
+</div>
+<div id="errorDiv" style="display: none">
+    <input name="errInfo" value="">
+</div>
+</body>
+</html>

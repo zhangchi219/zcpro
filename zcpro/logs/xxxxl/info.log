@@ -1,0 +1,257 @@
+[16:02:09:197] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 3788 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[16:02:09:202] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[16:02:09:934] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[16:02:09:942] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[16:02:09:950] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:02:09:951] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[16:02:09:956] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[16:02:10:055] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:02:10:055] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 828 ms
+[16:02:10:137] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:02:10:663] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[16:02:11:013] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[16:02:11:024] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[16:02:11:035] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[16:02:11:038] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.097 seconds (JVM running for 2.973)
+[16:02:15:320] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:02:15:320] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[16:02:15:324] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 4 ms
+[16:02:20:344] [WARN] - Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[16:02:20:344] [ERROR] - Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[16:03:03:111] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 2036 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[16:03:03:116] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[16:03:03:903] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[16:03:03:911] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[16:03:03:918] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:03:03:918] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[16:03:03:923] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[16:03:04:023] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:03:04:023] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 878 ms
+[16:03:04:089] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[16:03:04:576] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[16:03:04:910] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[16:03:04:920] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[16:03:04:930] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[16:03:04:933] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.072 seconds (JVM running for 3.049)
+[16:03:53:954] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:03:53:954] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[16:03:53:959] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 4 ms
+[16:03:59:352] [WARN] - Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[16:03:59:352] [ERROR] - Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[17:25:05:866] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /zc/login
+[17:26:04:496] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 18368 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[17:26:04:501] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[17:26:05:257] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[17:26:05:268] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[17:26:05:276] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:26:05:277] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[17:26:05:283] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[17:26:05:404] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:26:05:404] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 877 ms
+[17:26:05:488] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[17:26:06:020] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[17:26:06:357] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[17:26:06:366] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[17:26:06:377] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[17:26:06:380] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.176 seconds (JVM running for 3.146)
+[17:26:19:657] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:26:19:657] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[17:26:19:662] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 4 ms
+[17:26:24:688] [WARN] - Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[17:26:24:690] [ERROR] - Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[19:04:36:558] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 23952 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[19:04:36:564] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[19:04:37:296] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[19:04:37:305] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[19:04:37:310] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[19:04:37:311] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[19:04:37:316] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[19:04:37:404] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[19:04:37:404] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 815 ms
+[19:04:37:473] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[19:04:38:060] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[19:04:38:397] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[19:04:38:407] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[19:04:38:417] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[19:04:38:420] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.078 seconds (JVM running for 3.101)
+[21:13:15:937] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 19512 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[21:13:15:942] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[21:13:16:251] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:13:16:674] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[21:13:17:181] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[21:13:17:508] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[21:13:17:515] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[21:13:17:522] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:13:17:522] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[21:13:17:527] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[21:13:17:620] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:13:17:620] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1652 ms
+[21:13:18:166] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[21:13:18:176] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[21:13:18:186] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[21:13:18:189] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.53 seconds (JVM running for 3.446)
+[21:18:26:546] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 17292 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[21:18:26:552] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[21:18:26:872] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:18:27:173] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[21:18:27:691] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[21:18:28:025] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[21:18:28:033] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[21:18:28:039] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:18:28:040] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[21:18:28:045] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[21:18:28:137] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:18:28:137] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1556 ms
+[21:18:28:640] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[21:18:28:650] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[21:18:28:660] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[21:18:28:663] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.361 seconds (JVM running for 3.198)
+[21:18:41:673] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[21:18:41:673] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[21:18:41:678] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 5 ms
+[21:18:41:693] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /test/t
+[21:18:49:709] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:18:49:710] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:18:51:433] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:19:09:752] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:19:15:288] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:19:26:856] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:22:28:053] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 4804 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[21:22:28:058] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[21:22:28:377] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:22:28:693] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[21:22:29:221] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[21:22:29:575] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[21:22:29:583] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[21:22:29:589] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:22:29:590] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[21:22:29:594] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[21:22:29:687] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:22:29:688] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1603 ms
+[21:22:30:344] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[21:22:30:355] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[21:22:30:366] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[21:22:30:368] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.561 seconds (JVM running for 3.474)
+[21:22:31:177] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[21:22:31:177] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[21:22:31:183] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 5 ms
+[21:22:37:357] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:22:37:357] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:22:43:630] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: AbstractFallbackSQLExceptionTranslator.java;methodName: translate; lineNum:89 ; errorMessage:org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: 错误: 不能在一个只读模式的事务中执行INSERT
+### The error may involve com.example.zcpro.mainservice.dao.UserMapper.insertUser-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO usertable          ( id,                                           username,                                           passWord )           values ( ?,                                           ?,                                           ? )
+### Cause: org.postgresql.util.PSQLException: 错误: 不能在一个只读模式的事务中执行INSERT
+; uncategorized SQLException; SQL state [25006]; error code [0]; 错误: 不能在一个只读模式的事务中执行INSERT; nested exception is org.postgresql.util.PSQLException: 错误: 不能在一个只读模式的事务中执行INSERT
+[21:23:25:819] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 17376 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[21:23:25:824] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[21:23:26:126] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:23:26:426] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[21:23:26:937] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[21:23:27:260] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[21:23:27:269] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[21:23:27:275] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:23:27:276] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[21:23:27:281] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[21:23:27:369] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:23:27:370] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1518 ms
+[21:23:27:878] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[21:23:27:887] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[21:23:27:897] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[21:23:27:900] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.316 seconds (JVM running for 3.213)
+[21:23:35:873] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[21:23:35:873] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[21:23:35:879] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 5 ms
+[21:23:40:777] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:23:40:777] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:23:45:768] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:24:55:410] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 13780 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[21:24:55:415] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[21:24:55:722] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:24:56:025] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[21:24:56:531] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[21:24:56:858] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[21:24:56:867] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[21:24:56:874] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:24:56:875] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[21:24:56:880] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[21:24:56:970] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:24:56:970] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1529 ms
+[21:24:57:469] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[21:24:57:479] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[21:24:57:490] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[21:24:57:492] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.303 seconds (JVM running for 3.197)
+[21:25:04:517] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[21:25:04:517] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[21:25:04:523] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 6 ms
+[21:25:09:315] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:25:09:315] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:25:14:392] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:26:05:371] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 23168 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[21:26:05:376] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[21:26:05:684] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:26:05:989] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[21:26:06:592] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[21:26:06:919] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[21:26:06:927] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[21:26:06:933] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:26:06:934] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[21:26:06:938] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[21:26:07:029] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:26:07:029] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1627 ms
+[21:26:07:549] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[21:26:07:558] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[21:26:07:568] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[21:26:07:571] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.422 seconds (JVM running for 3.303)
+[21:26:15:406] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[21:26:15:406] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[21:26:15:411] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 5 ms
+[21:26:20:957] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:26:20:958] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:26:26:522] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:35 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:45:23:796] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 19472 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[21:45:23:803] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[21:45:24:136] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:45:24:453] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[21:45:25:189] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[21:45:25:560] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[21:45:25:575] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[21:45:25:584] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:45:25:585] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[21:45:25:592] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[21:45:25:698] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:45:25:698] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1863 ms
+[21:45:26:240] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[21:45:26:250] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[21:45:26:260] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[21:45:26:263] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.728 seconds (JVM running for 3.667)
+[21:45:26:812] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[21:45:26:812] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[21:45:26:817] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 5 ms
+[21:45:33:047] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:45:33:048] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:45:38:274] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserServiceImpl.java;methodName: insertUser; lineNum:32 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:45:56:861] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting MainserviceApplication on LAPTOP-BIRQQF09 with PID 2716 (I:\zcpro\mainservice\target\classes started by zhang in I:\zcpro)
+[21:45:56:868] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[21:45:57:187] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:45:57:490] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[21:45:58:003] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[21:45:58:369] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+[21:45:58:380] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[21:45:58:386] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:45:58:387] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.13
+[21:45:58:394] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\app\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;c:\windows\system32;I:\apache-maven-3.2.5\bin;I:\pg10\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;;.]
+[21:45:58:486] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:45:58:486] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1591 ms
+[21:45:59:015] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[21:45:59:025] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+[21:45:59:034] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[21:45:59:037] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started MainserviceApplication in 2.418 seconds (JVM running for 3.373)
+[21:46:03:600] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[21:46:03:600] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
+[21:46:03:605] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 4 ms
+[21:46:09:410] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:46:09:410] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:46:14:839] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserServiceImpl.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:46:15:541] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserServiceImpl.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero

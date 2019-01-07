@@ -1,0 +1,47 @@
+[16:02:20:344] [WARN] - Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[16:02:20:344] [ERROR] - Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[16:03:59:352] [WARN] - Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[16:03:59:352] [ERROR] - Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[17:25:05:866] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /zc/login
+[17:26:24:688] [WARN] - Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[17:26:24:690] [ERROR] - Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:13:16:251] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:18:26:872] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:18:41:693] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /test/t
+[21:18:49:709] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:18:49:710] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:18:51:433] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:19:09:752] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:19:15:288] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:19:26:856] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:22:28:377] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:22:37:357] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:22:37:357] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:22:43:630] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: AbstractFallbackSQLExceptionTranslator.java;methodName: translate; lineNum:89 ; errorMessage:org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: org.postgresql.util.PSQLException: 错误: 不能在一个只读模式的事务中执行INSERT
+### The error may involve com.example.zcpro.mainservice.dao.UserMapper.insertUser-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO usertable          ( id,                                           username,                                           passWord )           values ( ?,                                           ?,                                           ? )
+### Cause: org.postgresql.util.PSQLException: 错误: 不能在一个只读模式的事务中执行INSERT
+; uncategorized SQLException; SQL state [25006]; error code [0]; 错误: 不能在一个只读模式的事务中执行INSERT; nested exception is org.postgresql.util.PSQLException: 错误: 不能在一个只读模式的事务中执行INSERT
+[21:23:26:126] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:23:40:777] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:23:40:777] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:23:45:768] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:24:55:722] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:25:09:315] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:25:09:315] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:25:14:392] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:26:05:684] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:26:20:957] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:26:20:958] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:26:26:522] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserController.java;methodName: insertUser; lineNum:35 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:45:24:136] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:45:33:047] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:45:33:048] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:45:38:274] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserServiceImpl.java;methodName: insertUser; lineNum:32 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:45:57:187] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:167) - No MyBatis mapper was found in '[com.example.mainservice.dao]' package. Please check your configuration.
+[21:46:09:410] [WARN] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:15) - hahahahqqq
+[21:46:09:410] [ERROR] - com.example.zcpro.mainservice.controller.Hello_boot.hello_boot(Hello_boot.java:16) - hahahah
+[21:46:14:839] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserServiceImpl.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero
+[21:46:15:541] [ERROR] - com.example.zcpro.mainservice.core.globalException.GlobalExceptionHanld.getGlobalRunTimeException(GlobalExceptionHanld.java:25) - filename: UserServiceImpl.java;methodName: insertUser; lineNum:33 ; errorMessage:java.lang.ArithmeticException: / by zero

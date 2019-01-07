@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.zcpro.mainservice.dao.UserMapper" >
+    <resultMap id="BaseResultMap" type="com.example.zcpro.mainservice.model.User" >
+        <id column="id" property="id" jdbcType="VARCHAR" />
+        <result column="username" property="userName" jdbcType="VARCHAR" />
+        <result column="password" property="passWord" jdbcType="VARCHAR" />
+    </resultMap>
+    <sql id="column_list">
+        id,userName,password
+    </sql>
+    <select id="getUser" resultMap="BaseResultMap" parameterType="java.lang.String">
+        SELECT id, username, password FROM usertable where username = #{username}
+    </select>
+    <select id="getUsers" resultMap="BaseResultMap">
+        SELECT <include refid="column_list"/> FROM usertable
+    </select>
+    <insert id="insertUser" parameterType="com.example.zcpro.mainservice.model.User">
+        INSERT INTO usertable
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="userName != null">
+                username,
+            </if>
+            <if test="passWord != null">
+                passWord,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=VARCHAR},
+            </if>
+            <if test="userName != null">
+                #{userName,jdbcType=VARCHAR},
+            </if>
+            <if test="passWord != null">
+                #{passWord,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateUser" parameterType="com.example.zcpro.mainservice.model.User">
+        UPDATE usertable
+        <trim prefix="set" suffix="where username=#{userName}" suffixOverrides=",">
+            <if test="id!=null">
+                id = #{id},
+            </if>
+            <if test="passWord">
+                password=#{passWord},
+            </if>
+        </trim>
+    </update>
+    <delete id="deleteUser" parameterType="java.lang.String">
+         DELETE tableuser where user=#{userName}
+    </delete>
+</mapper>
